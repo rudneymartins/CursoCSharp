@@ -2,12 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CursoCSharp.Fundamentos
-{
-    class Inferencia
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    class Inferencia {
+        public static void Executar() {
             var nome = "Leonardo"; // Nesse caso o C# reconhece que o vampo é texto e substitui a var por string, por exemplo
             Console.WriteLine(nome);
 
