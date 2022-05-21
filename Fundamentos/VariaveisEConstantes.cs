@@ -6,10 +6,10 @@ namespace CursoCSharp.Fundamentos {
     class VariaveisEConstantes {
         public static void Executar() {
             //are da circunferencia
-            double raio = 4.5;
+            double raio = 4.5; //aqui iniciamos a variavel co um valor
             const double PI = 3.14;
 
-            raio = 5.5;
+            raio = 5.5; // e aqui mudamos o valor da variavel
 
             double area = PI * raio * raio;
             Console.WriteLine(area);
