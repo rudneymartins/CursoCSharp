@@ -16,7 +16,6 @@ namespace CursoCSharp.Fundamentos {
              de multiplas linhas
              */
             Console.WriteLine("O C# tem o XML comments");
-
         }
     }
 }
